@@ -1,0 +1,22 @@
+# Core Dependencies
+python-dotenv>=1.0.0
+
+# Vector Database & Embeddings
+chromadb>=0.4.22
+sentence-transformers>=2.7.0
+
+# Google Gemini API (NEW SDK)
+google-genai>=0.2.0
+
+# API Framework
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.7.0
+
+# Data Processing & Evaluation
+pandas>=2.2.0
+numpy>=1.26.0
+
+# Utilities
+tqdm>=4.66.0
+requests>=2.31.0
