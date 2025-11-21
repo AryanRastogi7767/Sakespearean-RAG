@@ -1,4 +1,4 @@
-# 🎭 The Shakespearean Scholar - RAG System
+# The Shakespearean Scholar - RAG System
 
 > A containerized Retrieval-Augmented Generation (RAG) system that functions as an expert AI tutor on William Shakespeare's "The Tragedy of Julius Caesar."
 
@@ -34,18 +34,18 @@ This project implements a complete RAG (Retrieval-Augmented Generation) system d
 
 ### Key Features
 
-- ✅ **Semantic Search**: ChromaDB vector database with 150 hybrid-chunked segments
-- ✅ **LLM Generation**: Google Gemini 2.0 Flash for natural, contextual responses
-- ✅ **Enhanced Filtering**: Smart Act/Scene detection with regex-based metadata filtering
-- ✅ **Source Citations**: Every answer includes Act, Scene, and Speaker attribution
-- ✅ **RESTful API**: FastAPI backend with 5 comprehensive endpoints + health checks
-- ✅ **Interactive UI**: Streamlit frontend with 3-tab interface (Questions, Stats, Evaluation)
-- ✅ **Containerized**: Complete Docker Compose setup for one-command deployment
-- ✅ **Full Evaluation**: 35 questions evaluated with 100% success rate (563-line comprehensive report)
+-  **Semantic Search**: ChromaDB vector database with 150 hybrid-chunked segments
+-  **LLM Generation**: Google Gemini 2.0 Flash for natural, contextual responses
+-  **Enhanced Filtering**: Smart Act/Scene detection with regex-based metadata filtering
+-  **Source Citations**: Every answer includes Act, Scene, and Speaker attribution
+-  **RESTful API**: FastAPI backend with 5 comprehensive endpoints + health checks
+-  **Interactive UI**: Streamlit frontend with 3-tab interface (Questions, Stats, Evaluation)
+-  **Containerized**: Complete Docker Compose setup for one-command deployment
+-  **Full Evaluation**: 35 questions evaluated with 100% success rate (563-line comprehensive report)
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -82,7 +82,7 @@ This project implements a complete RAG (Retrieval-Augmented Generation) system d
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -96,7 +96,7 @@ This project implements a complete RAG (Retrieval-Augmented Generation) system d
 
 ---
 
-## 🛑 Prerequisites
+##  Prerequisites
 
 Before starting, ensure you have:
 
@@ -113,7 +113,7 @@ Before starting, ensure you have:
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Method 1: Automated Setup (Recommended)
 
@@ -168,7 +168,7 @@ After successful startup:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 A2/
@@ -227,7 +227,7 @@ A2/
 
 ---
 
-## 🌐 API Documentation
+##  API Documentation
 
 ### Base URL
 ```
@@ -328,7 +328,7 @@ Visit http://localhost:8000/docs for full Swagger UI documentation with:
 
 ---
 
-## 📊 Evaluation
+##  Evaluation
 
 ### Test Dataset
 
@@ -347,7 +347,7 @@ The system has been evaluated on 35 questions in `data/evaluation.json`:
 - **10 Medium**: Requires some inference
 - **5 Hard**: Complex synthesis across acts
 
-### Evaluation Results (✅ COMPLETE)
+### Evaluation Results
 
 **Full evaluation completed on November 11, 2025:**
 
@@ -360,11 +360,11 @@ Report:                 reports/EVALUATION.md (563 lines)
 ```
 
 **Key Findings:**
-- ✅ 100% success rate with robust retry logic
-- ✅ Strong performance on factual questions (avg confidence: 0.237)
-- ✅ Enhanced Act/Scene filtering working perfectly
-- ✅ Scholar persona provides proper citations
-- ⚠️ Thematic questions show lower confidence (0.040 avg) - expected for retrieval-based systems
+-  100% success rate with robust retry logic
+-  Strong performance on factual questions (avg confidence: 0.237)
+-  Enhanced Act/Scene filtering working perfectly
+-  Scholar persona provides proper citations
+-  Thematic questions show lower confidence (0.040 avg) - expected for retrieval-based systems
 
 ### Running Evaluation
 
@@ -414,7 +414,7 @@ See `reports/EVALUATION.md` for the complete 563-line report with all sections.
 
 ---
 
-## 🔧 Development
+##  Development
 
 ### Local Development Setup
 
@@ -483,7 +483,7 @@ BACKEND_URL=http://backend:8000
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Services Won't Start
 
@@ -589,7 +589,7 @@ curl http://localhost:8000/stats
 
 ---
 
-## 📝 Implementation Notes
+##  Implementation Notes
 
 ### Chunking Strategy
 
@@ -652,19 +652,9 @@ System prompt designed to:
 
 ---
 
-## 🎯 Project Completion Status
+##  Project Completion Status
 
-### ✅ All Assignment Requirements Met
-
-| Component | Points | Status | Evidence |
-|-----------|--------|--------|----------|
-| **System Functionality** | 15/15 | ✅ Complete | Docker + 5 API endpoints working |
-| **Data Pipeline Quality** | 28-30/30 | ✅ Complete | 150 chunks, hybrid strategy, metadata |
-| **RAG Quality** | 33-35/35 | ✅ Complete | Scholar persona, citations, filtering |
-| **Evaluation & Analysis** | 18-20/20 | ✅ Complete | 563-line report, all sections |
-| **TOTAL** | **94-100/100** | ✅ **A/A+** | **Ready for Submission** |
-
-### 📊 System Statistics
+###  System Statistics
 
 - **150 Chunks**: 5 types across all 5 acts
 - **35 Questions Evaluated**: 100% success rate
@@ -672,35 +662,23 @@ System prompt designed to:
 - **3 Docker Services**: backend (healthy), chromadb, frontend
 - **3,030 Lines of Documentation**: README, PROJECT_STATUS, PROJECT_PLAN, EVALUATION
 
-### 🚀 Key Achievements
+###  Key Achievements
 
-- ✅ Enhanced Act/Scene filtering with regex detection
-- ✅ Pre-computed embeddings avoid ONNX download issues
-- ✅ Robust retry logic handles API rate limiting
-- ✅ 100% evaluation success rate on 35 diverse questions
-- ✅ Comprehensive 563-line evaluation report
-- ✅ Scholar persona with proper citations verified
+-  Enhanced Act/Scene filtering with regex detection
+-  Pre-computed embeddings avoid ONNX download issues
+-  Robust retry logic handles API rate limiting
+-  100% evaluation success rate on 35 diverse questions
+-  Comprehensive 563-line evaluation report
+-  Scholar persona with proper citations verified
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 This is an academic project. For questions or issues:
 1. Check troubleshooting section
 2. Review logs: `docker-compose logs`
 3. Contact course TAs
-
----
-
-## 📄 License
-
-This project is for educational purposes as part of the Advanced NLP course.
-
----
-
-**Last Updated**: November 11, 2025  
-**Status**: ✅ **100% Complete - Ready for Submission**  
-**Estimated Grade**: A/A+ (94-100/100)
 
 ---
 
