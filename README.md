@@ -8,7 +8,7 @@
 
 **Members:**
 - MT2024026 - Aryan Rastogi
-- MT2024066 - Harshal Gujarathi
+- MT2024055 - Harshal Gujarathi
 - MT2024091 - Mohit Sharma
 
 ---
